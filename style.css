@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px #666;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #303030;
+}
+
+textarea {
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 1.2rem;
+    height: 350px;
+    width: 99.84%;
+    background-color: #fff;
+    color: #303030;
+    outline: none;
+}
+
+#html-output {
+    position: relative;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 320px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.highlight {
+    font-size: 1.2rem;
+    overflow-x: auto;
+}
+
+footer {
+    background-color: #303030;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.html-output-div {
+    position: relative;
+}
+
+#copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #999;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#copy-btn:hover {
+    background-color: #f2f2f2;
+    border-color: #666;
+}
+
+#copy-btn:active {
+    background-color: #e6e6e6;
+    border-color: #666;
+}

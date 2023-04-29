@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mark2HTML</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div></div>
+      <h1>Mark2HTML</h1>
+      <a href="https://github.com/your-username/your-project-name">
+        <img src="/static/github.png" style="height: 35px;" />
+      </a>
+    </header>
+    <main>
+      <form>
+        <label for="markdown">Enter your markdown here:</label>
+        <textarea
+          id="markdown"
+          name="markdown"
+          placeholder="Enter your markdown here"
+        ></textarea>
+      </form>
+
+      <label for="html-output">Your coverted HTML code here:</label>
+      
+      <div class="html-output-div">
+        <div id="html-output" class="highlight hljs" data-lang="javascript">
+            <!-- HTML output goes here -->
+          </div>
+          <button id="copy-btn">Copy Code</button>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Made with 💗 by
+        <a href="https://twitter.com/pushkaraj2007">Pushkaraj Kulkarni</a>
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
