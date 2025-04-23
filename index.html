@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Mark2HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
@@ -12,27 +13,33 @@
     <header>
       <div></div>
       <h1>Mark2HTML</h1>
-      <a href="https://github.com/your-username/your-project-name">
+      <a href="https://github.com/your-username/your-project-name" target="_blank">
         <img src="/static/github.png" style="height: 35px;" />
       </a>
     </header>
     <main>
-      <form>
-        <label for="markdown">Enter your markdown here:</label>
-        <textarea
-          id="markdown"
-          name="markdown"
-          placeholder="Enter your markdown here"
-        ></textarea>
-      </form>
-
-      <label for="html-output">Your coverted HTML code here:</label>
-      
-      <div class="html-output-div">
-        <div id="html-output" class="highlight hljs" data-lang="javascript">
-            <!-- HTML output goes here -->
+      <div class="container">
+        <form>
+          <div class="markdown-container">
+            <label for="markdown">Enter your markdown here:</label>
+            <textarea
+              id="markdown"
+              name="markdown"
+              placeholder="Enter your markdown here"
+            ></textarea>
           </div>
-          <button id="copy-btn">Copy Code</button>
+        </form>
+
+        <label for="html-output">Your converted HTML code here:</label>
+        
+        <div class="html-output-container">
+          <div class="html-output-div">
+            <div id="html-output" class="highlight hljs" data-lang="javascript">
+                <!-- HTML output goes here -->
+              </div>
+              <button id="copy-btn">Copy Code</button>
+          </div>
+        </div>
       </div>
     </main>
     <footer>

@@ -55,11 +55,14 @@ textarea {
     background-color: #fff;
     color: #303030;
     outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #html-output {
     position: relative;
-    background-color: #f5f5f5;
+    background-color: #fff;
     border: 1px solid #ccc;
     padding: 10px;
     height: 320px;
@@ -67,6 +70,8 @@ textarea {
     font-family: 'Courier New', Courier, monospace;
     font-size: 17px;
     line-height: 1.5;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .highlight {
@@ -107,6 +112,7 @@ footer p {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #copy-btn:hover {
@@ -117,4 +123,27 @@ footer p {
 #copy-btn:active {
     background-color: #e6e6e6;
     border-color: #666;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.markdown-container,
+.html-output-container {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    textarea,
+    #html-output {
+        height: 200px;
+    }
+
+    #copy-btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
 }
