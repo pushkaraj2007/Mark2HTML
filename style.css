@@ -147,3 +147,100 @@ footer p {
         padding: 6px 10px;
     }
 }
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+body.dark-mode textarea {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-mode #html-output {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+/* Live preview styles */
+#live-preview {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 320px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode #live-preview {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+/* Dark mode toggle button styles */
+#dark-mode-toggle {
+    background-color: #fff;
+    border: 1px solid #999;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#dark-mode-toggle:hover {
+    background-color: #f2f2f2;
+    border-color: #666;
+}
+
+#dark-mode-toggle:active {
+    background-color: #e6e6e6;
+    border-color: #666;
+}
+
+/* Download button styles */
+#download-btn {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    background-color: #fff;
+    border: 1px solid #999;
+    color: #333;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#download-btn:hover {
+    background-color: #f2f2f2;
+    border-color: #666;
+}
+
+#download-btn:active {
+    background-color: #e6e6e6;
+    border-color: #666;
+}
